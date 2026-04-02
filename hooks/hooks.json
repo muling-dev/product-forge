@@ -2,7 +2,7 @@
   "hooks": [
     {
       "event": "SessionStart",
-      "command": "cat \"${CLAUDE_PLUGIN_ROOT}/skills/product-forge/SKILL.md\""
+      "command": "cat \"${CLAUDE_PLUGIN_DIR}/skills/product-forge/SKILL.md\""
     }
   ]
 }

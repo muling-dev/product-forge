@@ -39,7 +39,7 @@ Autonomous product builder for Claude Code. Submit a requirement, get a verified
 ### 3. (Optional) OpenClaw Telegram trigger
 
 ```bash
-cp openclaw/skills/product-forge ~/.openclaw/workspace/skills/product-forge
+cp -r openclaw/skills/product-forge ~/.openclaw/workspace/skills/product-forge
 openclaw config set plugins.entries.acpx.config.permissionMode approve-all
 ```
 
