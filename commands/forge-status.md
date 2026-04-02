@@ -1,5 +1,4 @@
 ---
-name: forge:status
 description: Check the status of all running or recently completed product-forge tasks
 ---
 

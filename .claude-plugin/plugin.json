@@ -1,27 +1,8 @@
 {
   "name": "product-forge",
   "version": "1.0.0",
-  "commands": [
-    {
-      "name": "forge",
-      "description": "Submit a requirement and build a product autonomously",
-      "file": "commands/forge.md"
-    },
-    {
-      "name": "forge:status",
-      "description": "Check status of running forge tasks",
-      "file": "commands/forge-status.md"
-    }
-  ],
-  "agents": [
-    {
-      "name": "product-forge:evaluator",
-      "description": "Adversarial end-to-end evaluator. Tests code against spec and contract, produces structured critique. Used by product-forge orchestrator.",
-      "file": "agents/evaluator.md"
-    }
-  ],
-  "hooks": "hooks/hooks.json",
-  "skills": [
-    "skills/product-forge/SKILL.md"
-  ]
+  "description": "Autonomous product builder for Claude Code. /forge <requirement> → verified product delivered.",
+  "author": {
+    "name": "muling-dev"
+  }
 }
