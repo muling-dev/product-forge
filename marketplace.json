@@ -1,0 +1,10 @@
+{
+  "name": "product-forge",
+  "displayName": "Product Forge",
+  "description": "Full-cycle autonomous product builder. Submit a requirement, get a verified product. Planner (Claude Opus) → Generator (Codex) → Evaluator loop with auto-retry. Telegram or terminal trigger.",
+  "version": "1.0.0",
+  "author": "muling-dev",
+  "repository": "https://github.com/muling-dev/product-forge",
+  "tags": ["productivity", "agent", "codex", "automation"],
+  "requires": ["openai/codex-plugin-cc"]
+}

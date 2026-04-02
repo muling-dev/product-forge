@@ -1,0 +1,8 @@
+{
+  "hooks": [
+    {
+      "event": "SessionStart",
+      "command": "cat \"${CLAUDE_PLUGIN_ROOT}/skills/product-forge/SKILL.md\""
+    }
+  ]
+}

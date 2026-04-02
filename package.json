@@ -1,0 +1,7 @@
+{
+  "name": "product-forge",
+  "version": "1.0.0",
+  "description": "Autonomous product builder for Claude Code. Planner→Codex Generator→Evaluator pipeline, triggered from Telegram or terminal.",
+  "keywords": ["claude-code", "plugin", "codex", "agent", "product-forge"],
+  "license": "MIT"
+}
