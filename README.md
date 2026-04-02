@@ -48,9 +48,9 @@ openclaw config set plugins.entries.acpx.config.permissionMode approve-all
 ### From Claude Code terminal
 
 ```
-/forge build a personal portfolio site with dark mode and a blog section
-/forge create a REST API for a todo app with SQLite storage
-/forge build a CLI tool that converts markdown to a formatted PDF
+/product-forge:forge build a personal portfolio site with dark mode and a blog section
+/product-forge:forge create a REST API for a todo app with SQLite storage
+/product-forge:forge build a CLI tool that converts markdown to a formatted PDF
 ```
 
 ### From Telegram (via OpenClaw)
@@ -62,7 +62,7 @@ forge build a SaaS landing page with pricing table and waitlist signup
 ### Check status
 
 ```
-/forge:status
+/product-forge:forge-status
 ```
 
 ## How It Works
