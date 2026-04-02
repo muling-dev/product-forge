@@ -1,0 +1,20 @@
+{
+  "name": "product-forge",
+  "owner": {
+    "name": "muling-dev",
+    "email": ""
+  },
+  "metadata": {
+    "description": "Full-cycle autonomous product builder. Submit a requirement, get a verified product. Planner (Claude Opus) → Generator (Codex) → Evaluator loop with auto-retry. Telegram or terminal trigger.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "product-forge",
+      "source": "./",
+      "description": "Autonomous product builder for Claude Code. /forge <requirement> → verified product delivered.",
+      "category": "productivity",
+      "tags": ["productivity", "agent", "codex", "automation"]
+    }
+  ]
+}
